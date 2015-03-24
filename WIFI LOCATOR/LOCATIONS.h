@@ -1,6 +1,6 @@
 //LOCATIONS.h
 //EatMe
-//Function declarations...
+//FUNCTION DECLARATIONS
 
 
 
@@ -23,7 +23,7 @@ public:
     ~LOCATIONS(); //DESTRUCTOR
     
     string getName(); //TO GET NAME OF PERSON
-    int getZip();
+    int getZip();     //TO GET ZIP CODE
    // double getServings();
     
     

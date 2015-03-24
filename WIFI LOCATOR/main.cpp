@@ -13,18 +13,18 @@ int main()
 {
     
     string name;
-    int Zip;
+    int zip;
     //double Miles;
     
     cout << "What is your name? \n";
     cin >> name;
     
     cout << "What is your zip code \n";
-    cin >> Zip;
+    cin >> zip;
     
-    LOCATIONS User_1(name, Zip);  //add miles
+    LOCATIONS User_1(name, zip);  //add miles
     
-    cout << " Hi! " << "User_1.getName()" << "The closest Wifi location to " << User_1.getZip() << "is " << endl;
+    cout << " Hi! " << User_1.getName() << "The closest Wifi location to " << User_1.getZip() << " is " << endl;
   //  cout << Address << endl;  ....create address
     
     return 0;

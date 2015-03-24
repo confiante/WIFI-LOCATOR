@@ -1,6 +1,6 @@
 //BASE CLASS
 //EatMe
-//function definitions
+//FUNCTION DEFINITIONS
 
 #include "LOCATIONS.h"
 
@@ -12,11 +12,11 @@ LOCATIONS::LOCATIONS ()
 }
 
 
-LOCATIONS::LOCATIONS(string name, int Zip)  //add double miles
+LOCATIONS::LOCATIONS(string name, int zip)  //add double miles
 
 {
     string newName = name;
-    int newZip = Zip;
+    int newZip = zip;
    // double newMiles = Miles;
 }
 

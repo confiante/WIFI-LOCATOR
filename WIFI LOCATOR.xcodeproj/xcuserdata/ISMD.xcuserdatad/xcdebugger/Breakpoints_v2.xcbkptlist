@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19"
-            landmarkName = "LOCATIONS::LOCATIONS(string name, int Zip)"
+            landmarkName = "LOCATIONS::LOCATIONS(string name, int zip)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
