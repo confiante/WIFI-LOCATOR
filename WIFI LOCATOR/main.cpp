@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-   int zip = 0;
+   int zip = 00;
     
    cout << "What is your zip code?" << endl;
    cin >> zip;

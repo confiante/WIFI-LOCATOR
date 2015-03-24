@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>697E1E48-F077-432F-82F2-87F6F07CF2AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WIFI LOCATOR</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCE4BA501BBF5F6290EE012FC81FCD871C77072F</key>
+		<string>https://github.com/confiante/WIFI-LOCATOR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WIFI LOCATOR.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCE4BA501BBF5F6290EE012FC81FCD871C77072F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/confiante/WIFI-LOCATOR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCE4BA501BBF5F6290EE012FC81FCD871C77072F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCE4BA501BBF5F6290EE012FC81FCD871C77072F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WIFI-LOCATOR</string>
+		</dict>
+	</array>
+</dict>
+</plist>
