@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB25C2461AC0FE0800F274B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB25C2451AC0FE0800F274B9 /* main.cpp */; };
+		FB25C24E1AC1064400F274B9 /* LOCATIONS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB25C24C1AC1064400F274B9 /* LOCATIONS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FB25C2421AC0FE0800F274B9 /* WIFI LOCATOR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "WIFI LOCATOR"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB25C2451AC0FE0800F274B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FB25C24C1AC1064400F274B9 /* LOCATIONS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = LOCATIONS.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		FB25C24D1AC1064400F274B9 /* LOCATIONS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCATIONS.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				FB25C2451AC0FE0800F274B9 /* main.cpp */,
+				FB25C24C1AC1064400F274B9 /* LOCATIONS.cpp */,
+				FB25C24D1AC1064400F274B9 /* LOCATIONS.h */,
 			);
 			path = "WIFI LOCATOR";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB25C24E1AC1064400F274B9 /* LOCATIONS.cpp in Sources */,
 				FB25C2461AC0FE0800F274B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +238,7 @@
 				FB25C24B1AC0FE0800F274B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
