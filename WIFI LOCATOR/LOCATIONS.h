@@ -1,7 +1,8 @@
 //LOCATIONS.h
-//EatMe
+//WIFI LOCATOR
 //FUNCTION DECLARATIONS
-
+//HERIBERTO CORNIEL
+//MARCH 25TH, 2015
 
 
 #include <iostream>
@@ -24,14 +25,12 @@ public:
     
     string getName(); //TO GET NAME OF PERSON
     int getZip();     //TO GET ZIP CODE
-   // double getServings();
     
     
 private:
     
     string newName;
     int newZip;
-   // double newMiles; ....away from wifi spot
     
 };
 

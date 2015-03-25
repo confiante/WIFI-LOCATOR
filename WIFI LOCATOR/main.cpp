@@ -1,6 +1,7 @@
 //LOCATIONS.h
-//EatMe
-//Function declarations...
+//WIFI LOCATOR
+//HERIBERTO CORNIEL
+//MARCH 25TH, 2015
 
 #include <iostream>
 #include <string>
@@ -17,7 +18,6 @@ int main()
        
     string name;
     int zip;
-    //double Miles;
     
     cout << "What is your name? \n";
     cin >> name;
@@ -25,7 +25,7 @@ int main()
     cout << "What is your zip code \n";
     cin >> zip;
     
-    LOCATIONS User_1(name, zip);  //add miles
+    LOCATIONS User_1(name, zip);
     
     cout << " Hi! " << User_1.getName() << " The closest Wifi location to " << User_1.getZip() << " is " << endl;
 

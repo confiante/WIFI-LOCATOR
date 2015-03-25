@@ -1,6 +1,8 @@
 //BASE CLASS
-//EatMe
+//WIFI LOCATOR
 //FUNCTION DEFINITIONS
+//HERIBERTO CORNIEL
+//MARCH 25, 2015
 
 #include <iostream>
 #include <string>
@@ -8,22 +10,11 @@
 
 using namespace std;
 
-
-LOCATIONS::LOCATIONS () //delete
-
-{
-    newZip = 0;
-
- //   newServings = 0;
-}
-//delete end
-
-LOCATIONS::LOCATIONS(string name, int zip)  //add double miles
+LOCATIONS::LOCATIONS(string name, int zip)
 
 {
     newName = name;
     newZip = zip;
-   // double newMiles = Miles;
 }
 
 LOCATIONS::~LOCATIONS() //DECONSTRUCTOR
@@ -31,7 +22,7 @@ LOCATIONS::~LOCATIONS() //DECONSTRUCTOR
     
 }
 
-string LOCATIONS::getName() //get name of client
+string LOCATIONS::getName() //get name of user
 {
     return newName;
 }
