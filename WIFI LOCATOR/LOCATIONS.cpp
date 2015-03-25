@@ -3,18 +3,20 @@
 //FUNCTION DEFINITIONS
 
 #include <iostream>
+#include <string>
 #include "LOCATIONS.h"
 
 using namespace std;
 
 
-LOCATIONS::LOCATIONS ()
+LOCATIONS::LOCATIONS () //delete
 
 {
     newZip = 0;
 
  //   newServings = 0;
 }
+//delete end
 
 LOCATIONS::LOCATIONS(string name, int zip)  //add double miles
 
@@ -24,7 +26,7 @@ LOCATIONS::LOCATIONS(string name, int zip)  //add double miles
    // double newMiles = Miles;
 }
 
-LOCATIONS::~LOCATIONS() //DESCONSTRUCTOR
+LOCATIONS::~LOCATIONS() //DECONSTRUCTOR
 {
     
 }
