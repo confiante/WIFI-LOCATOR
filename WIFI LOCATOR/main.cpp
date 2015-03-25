@@ -24,7 +24,7 @@ int main()
     
     LOCATIONS User_1(name, zip);  //add miles
     
-    cout << " Hi! " << User_1.getName() << "The closest Wifi location to " << User_1.getZip() << " is " << endl;
+    cout << " Hi! " << User_1.getName() << " The closest Wifi location to " << User_1.getZip() << " is " << endl;
   //  cout << Address << endl;  ....create address
     
     return 0;

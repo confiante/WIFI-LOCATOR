@@ -38,16 +38,3 @@ int LOCATIONS::getZip()
 {
     return newZip;
 }
-
-/*void LOCATIONS::putName(string n)
-{  name = n;  }
-void putsalary(double s)
-{ salary = s; }
-void putyear(int y)
-{ year = y;  }
-*/
-
-//int LOCATIONS::getMiles()
-//{
-//    return newMiles;
-//}
