@@ -2,25 +2,29 @@
 //EatMe
 //FUNCTION DEFINITIONS
 
+#include <iostream>
 #include "LOCATIONS.h"
+
+using namespace std;
+
 
 LOCATIONS::LOCATIONS ()
 
 {
     newZip = 0;
+
  //   newServings = 0;
 }
-
 
 LOCATIONS::LOCATIONS(string name, int zip)  //add double miles
 
 {
-    string newName = name;
-    int newZip = zip;
+    newName = name;
+    newZip = zip;
    // double newMiles = Miles;
 }
 
-LOCATIONS::~LOCATIONS()
+LOCATIONS::~LOCATIONS() //DESCONSTRUCTOR
 {
     
 }
@@ -34,6 +38,14 @@ int LOCATIONS::getZip()
 {
     return newZip;
 }
+
+/*void LOCATIONS::putName(string n)
+{  name = n;  }
+void putsalary(double s)
+{ salary = s; }
+void putyear(int y)
+{ year = y;  }
+*/
 
 //int LOCATIONS::getMiles()
 //{

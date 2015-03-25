@@ -14,13 +14,13 @@ using namespace std;
 
 
 class LOCATIONS
-
 {
+
 public:
     
     LOCATIONS(); // CONSTRUCTOR
     LOCATIONS(string, int); // OVERLOAD CONSTRUCTOR .....add "double" for miles
-    ~LOCATIONS(); //DESTRUCTOR
+   ~LOCATIONS(); //DESTRUCTOR
     
     string getName(); //TO GET NAME OF PERSON
     int getZip();     //TO GET ZIP CODE
