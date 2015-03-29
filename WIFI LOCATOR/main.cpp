@@ -27,7 +27,7 @@ int main()
     cin >> zip;
     if (zip < 10000 || zip > 11697){
         cout << "This is not a zip code within the Five Boroughs...Please try again! \n";
-           return 0;} //Declaring range of New York City 5 Boroughs
+           return 0;} //Declaring range of zip codes in New York City 5 Boroughs
 
     
     cout << "What's the farthest miles you'd travel \n";
@@ -35,22 +35,25 @@ int main()
     
     LOCATIONS User_1(name, zip, miles);
     
-    cout << " Hi! " << User_1.getName() << " The closest Wifi location to " << User_1.getZip() << " is " << User_1.getMiles() * 12 << " miles away at " << endl;
+    cout << " Hi! " << User_1.getName() << " The closest park with Wifi location to " << User_1.getZip() << " is " << User_1.getMiles() << " miles away at " << endl; //future project could include doing using haversine formula "https://megocode3.wordpress.com/2008/02/05/haversine-formula-in-c/"
 
     
-    if (User_1.getZip() > 10001 && User_1.getZip() < 10125){
-       cout << "Thomas Paine Park, New York, NY 10007";}
-    else if (User_1.getZip() > 10250 && User_1.getZip() < 10500){
-       cout << "Tappen Park Tappen Park, Bay St, Staten Island, NY 10304";}
-    else if (User_1.getZip() > 10750 && User_1.getZip() < 10925){
-       cout << "Devoe Park 101 W Fordham Rd, Bronx, NY 10468";}
-    else if (User_1.getZip() > 11295 && User_1.getZip() < 10500){
-       cout << "Prospect Park 95 Prospect Park West, Brooklyn, NY 11215";}
-    else if (User_1.getZip() > 11375 && User_1.getZip() > 10500){
-       cout << "Flushing Meadows Park Meadow Lake Rd W, Forest Hills, NY 11375";}
+    if (User_1.getZip() > 10001 && User_1.getZip() < 10282){
+       cout << "Thomas Paine Park, New York, NY 10007 \n";}
+   
+    if (User_1.getZip() > 10301 && User_1.getZip() < 10314){
+       cout << "Tappen Park Tappen Park, Bay St, Staten Island, NY 10304 \n";}
+    
+    if (User_1.getZip() > 10451 && User_1.getZip() < 10475){
+       cout << "Devoe Park 101 W Fordham Rd, Bronx, NY 10468 \n";}
+    
+    if (User_1.getZip() > 11201 && User_1.getZip() < 10251){
+       cout << "Prospect Park 95 Prospect Park West, Brooklyn, NY 11215 \n";}
+    
+    if (User_1.getZip() > 11001 && User_1.getZip() < 11697){
+       cout << "Flushing Meadows Park Meadow Lake Rd W, Forest Hills, NY 11375 \n";}
     
 
 return 0;
 
 }
-
