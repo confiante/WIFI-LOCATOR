@@ -42,16 +42,16 @@ int main()
     if (User_1.getZip() >= 10001 && User_1.getZip() <= 10282){
        cout << "Thomas Paine Park, New York, NY 10007 \n";}
    
-    if (User_1.getZip() >= 10301 && User_1.getZip() <= 10314){
+    else if (User_1.getZip() >= 10301 && User_1.getZip() <= 10314){
        cout << "Tappen Park Tappen Park, Bay St, Staten Island, NY 10304 \n";}
     
-    if (User_1.getZip() >= 10451 && User_1.getZip() <= 10475){
+    else if (User_1.getZip() >= 10451 && User_1.getZip() <= 10475){
        cout << "Devoe Park 101 W Fordham Rd, Bronx, NY 10468 \n";}
     
-    if (User_1.getZip() >= 11201 && User_1.getZip() <= 10251){
+    else if (User_1.getZip() >= 11201 && User_1.getZip() <= 10251){
        cout << "Prospect Park 95 Prospect Park West, Brooklyn, NY 11215 \n";}
     
-    if (User_1.getZip() >= 11001 && User_1.getZip() <= 11697){
+    else if (User_1.getZip() >= 11001 && User_1.getZip() <= 11697){
        cout << "Flushing Meadows Park Meadow Lake Rd W, Forest Hills, NY 11375 \n";}
     
 
