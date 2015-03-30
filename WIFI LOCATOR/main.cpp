@@ -26,7 +26,7 @@ int main()
     
     cout << "Enter a zip code within the five boroughs (A ZIP CODE RANGE BETWEEN 10001-11697): " << endl;
     cin >> zip;
-    if (zip < 10000 || zip > 11697){
+    if (10000 <= zip || zip >= 11698){
         cout << "This is not a zip code within the Five Boroughs...Please try again! \n";
            return 0;} //Declaring range of zip codes in New York City 5 Boroughs
 
