@@ -1,5 +1,6 @@
-//LOCATIONS.h
+//main.cpp
 //WIFI LOCATOR
+//future project could include doing using haversine formula "https://megocode3.wordpress.com/2008/02/05/haversine-formula-in-c/" to get better approximation of WIFI Locations...also maybe pulling in list from external file of address with WIFI
 //HERIBERTO CORNIEL
 //MARCH 25TH, 2015
 
@@ -35,7 +36,7 @@ int main()
     
     LOCATIONS User_1(name, zip, miles);
     
-    cout << " Hi! " << User_1.getName() << " The closest park with Wifi location to " << User_1.getZip() << " is " << User_1.getMiles() << " miles away at " << endl; //future project could include doing using haversine formula "https://megocode3.wordpress.com/2008/02/05/haversine-formula-in-c/"
+    cout << " Hi! " << User_1.getName() << " The closest park with Wifi location to " << User_1.getZip() << " is " << User_1.getMiles() << " miles away at " << endl;
 
     
     if (User_1.getZip() > 10001 && User_1.getZip() < 10282){
